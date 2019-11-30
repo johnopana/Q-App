@@ -6,16 +6,16 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { QuoteComponent } from './quote/quote.component';
-import { HighlighteQuoteDirective } from './highlighte-quote.directive';
-import { TimeCountPipe } from './time-count.pipe';
+import { QuotesComponent } from './quotes/quotes.component';
+import { HighlighteQuoteDirective } from './quotes/highlighte.quote.directive';
+import { TimeCountPipe } from '../app/quotes/time-count.pipe';
 import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteDetailsComponent,
-    QuoteComponent,
+    QuotesComponent,
     HighlighteQuoteDirective,
     TimeCountPipe,
     FormComponent
