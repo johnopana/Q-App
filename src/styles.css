@@ -1,6 +1,13 @@
 body {
-    background-color: lightblue;
-  }
-  form{
-      margin: 0 auto;
-  }
+  background-color: lightblue;
+}
+form {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: 1.5px;
+  border-radius: 1.5px;
+}
+textarea {
+  width: 100%;
+  border-radius: 1.5px;
+}
