@@ -1,10 +1,12 @@
-<ul *ngFor="let quote of quotes">
-  <li>
+<ul class="">
+  <li *ngFor="let quote of quotes" class="">
     {{ quote.quote }}
-    -{{ quote.author }}
-    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-    <i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+    {{ quote.author }}
 
+    <div>
+    <i class="fa fa-thumbs-o-up like" aria-hidden="true"></i>
+    <i class="fa fa-thumbs-o-down dislike" aria-hidden="true"></i>
+  </div>
 
   </li>
 </ul>
