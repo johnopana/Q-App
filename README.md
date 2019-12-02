@@ -34,7 +34,7 @@
 - There are no known bugs currently. The page works as expected.
 
 - Support and Contact Details
-- For any comments,suggestions,feedback or inquiries, contact me via email: pwachira900@gmail.com
+- For any comments,suggestions,feedback or inquiries, contact me via email: johnopana2016@gmail.com
 
 ## Make contributions to the code.
 
