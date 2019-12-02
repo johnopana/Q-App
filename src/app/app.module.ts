@@ -8,8 +8,9 @@ import { AppComponent } from './app.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { HighlighteQuoteDirective } from './quotes/highlighte.quote.directive';
-import { TimeCountPipe } from '../app/quotes/time-count.pipe';
+import { DateCountPipe } from './date-count.pipe';
 import { FormComponent } from './form/form.component';
+import { VoteComponent } from './vote/vote.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { FormComponent } from './form/form.component';
     QuoteDetailsComponent,
     QuotesComponent,
     HighlighteQuoteDirective,
-    TimeCountPipe,
-    FormComponent
+    DateCountPipe,
+    FormComponent,
+    VoteComponent
   ],
   imports: [
     BrowserModule,
@@ -29,3 +31,4 @@ import { FormComponent } from './form/form.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color:lightgreen;
 }
 form {
   margin: 0 auto;
@@ -24,7 +24,7 @@ ul {
 }
 li {
   /* width: 50%; */
-  background-color:whitesmoke;
+  background-color: url("https://bit.ly/2LdMqHO");
   text-align: center;
   /* display: block; */
   font-size: 2em;
@@ -35,7 +35,7 @@ li {
 
 .fa {
   padding: 10px;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .like {
@@ -45,5 +45,7 @@ li {
   color: brown;
 }
 
-li {
+.quote {
+  color: navy;
+  font-weight:bolder;
 }
