@@ -1,4 +1,4 @@
-import { HighlighteQuoteDirective } from './highlighte-quote.directive';
+import { HighlighteQuoteDirective } from '../highlighte-quote.directive';
 
 describe('HighlighteQuoteDirective', () => {
   it('should create an instance', () => {
