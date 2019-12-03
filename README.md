@@ -19,20 +19,20 @@
 
 ## Setup/Installation requirements
 
-- Clone or download and unzip the repository from github, https:
+- Clone or download and unzip the repository from github, https://github.com/johnopana/Q-App
 - If you have git Use this command git clone \* to clone the project.
 - Run ng serve from your terminal
 - Live Demo
 
 ## To view the page click on the link below
 
--
+- https://github.com/johnopana/Q-App
 
 ## Technologies Used
 
 - Angular CLI
 - Known Bugs
-- There are no known bugs currently. The page works as expected.
+- There are known bugs currently. The page works as unexpected.
 
 - Support and Contact Details
 - For any comments,suggestions,feedback or inquiries, contact me via email: johnopana2016@gmail.com

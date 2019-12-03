@@ -9,7 +9,8 @@
         <div class="row" id="lol"></div>
         <hr />
 
-        <app-form (addQuote)="addNewQuote($event, i)"></app-form>
+        <app-form></app-form>
+        <!-- (addQuote)="addNewQuote($event)" -->
       </div>
       <div class="col-8" id="two">
         <div class="row" id="lol"></div>
@@ -50,7 +51,7 @@
                 <div class="col-2">
                   <app-quote-details
                     [quote]="quote"
-                    (isComplete)="deleteQuote($event, i)"
+                    (isComplete)="deleteQuote($event)"
                   ></app-quote-details>
                 </div>
               </div>
