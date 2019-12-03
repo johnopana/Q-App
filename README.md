@@ -26,8 +26,8 @@
 
 ## To view the page click on the link below
 
-- https://github.com/johnopana/Q-App
-
+- 
+https://johnopana.github.io/Q-App/
 ## Technologies Used
 
 - Angular CLI
