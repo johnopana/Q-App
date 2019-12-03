@@ -29,6 +29,14 @@ export class QuotesComponent implements OnInit {
     }
   ];
 
+  addQuote(quotes) {
+    quotes.completeDate = new Date(quotes.completeDate);
+    this.quotes.push(quotes);
+  }
+  deleteQuote(index) {
+    this.quotes.splice(index, 1);
+  }
+
   toggleQuote() {
     this.showDescription = !this.showDescription;
   }
