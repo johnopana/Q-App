@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color:blue;
 }
 form {
   margin: 0 auto;
@@ -24,7 +24,7 @@ ul {
 }
 li {
   /* width: 50%; */
-  background-color: url("https://bit.ly/2LdMqHO");
+  /* background-color: url("https://bit.ly/2LdMqHO"); */
   text-align: center;
   /* display: block; */
   font-size: 2em;

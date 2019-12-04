@@ -2,15 +2,18 @@
   <h2 class="txt-center">Creat a new quote</h2>
   <hr />
   <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <!-- <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name"> -->
+
+
   
     <!-- (ngSubmit)="(submitQuote)" -->
     <div class="form-group">
       <label for="name">Name</label>
-      <input type="text" required class="form-control" id="name" />
+      <input type="text" required class="form-control" id="name" name="author" [(ngModel)]="author"/>
     </div>
     <div class="form-group">
       <label for="description">Enter Quote</label>
-      <textarea class="form-control" id="Quotes" rows="4" required></textarea>
+      <textarea class="form-control" id="Quotes" rows="4" required name="quote"[(ngModel)]="quote" ></textarea>
     </div>
     <div class="form-group">
       <input
@@ -18,6 +21,8 @@
         class="form-control"
         id="exampleInputauthor"
         placeholder="Enter author"
+        name="publisher"
+      [(ngModel)]="publisher"
       />
     </div>
     <button type="submit" class="btn btn-primary m-auto d-block">
